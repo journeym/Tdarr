@@ -1,7 +1,7 @@
 ARG VERSION
 ARG DATE
 
-FROM docker.io/haveagitgat/tdarr_acc:base_${VERSION}_${DATE}
+FROM docker.io/journeym/tdarr_node:test_${VERSION}_${DATE}
 
 ARG VERSION
 ARG MODULE
